@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "playerId": 1,
+      "name": "Joe Root",
+      "countryFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "country": "England",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/root.png?raw=true",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 2000000
+    },
+    {
+      "playerId": 2,
+      "name": "Jofra Archer",
+      "countryFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "country": "England",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/archer.jpg?raw=true",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2200000
+    },
+    {
+      "playerId": 3,
+      "name": "Kane Williamson",
+      "countryFlag": "🇳🇿",
+      "country": "New Zealand",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/wiliaam2.png?raw=true",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 1800000
+    },
+    {
+      "playerId": 4,
+      "name": "Pat Cummins",
+      "countryFlag": "🇦🇺",
+      "country": "Australia",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/pat2.png?raw=true",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2200000
+    },
+    {
+      "playerId": 5,
+      "name": "Mohammad Rizwan",
+      "countryFlag": "🇵🇰",
+      "country": "Pakistan",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/rezwan3.jpg?raw=true",
+      "role": "Wicketkeeper",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 2000000
+    },
+    {
+      "playerId": 6,
+      "name": "Ben Stokes",
+      "countryFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "country": "England",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/ben.png?raw=true",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm fast-medium",
+      "biddingPrice": 2500000
+    },
+    {
+      "playerId": 7,
+      "name": "Trent Boult",
+      "countryFlag": "🇳🇿",
+      "country": "New Zealand",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/bolt-3.png?raw=true",
+      "role": "Bowler",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm fast",
+      "biddingPrice": 1500000
+    },
+    {
+      "playerId": 8,
+      "name": "David Warner",
+      "countryFlag": "🇦🇺",
+      "country": "Australia",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/warner3.png?raw=true",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": 1900000
+    },
+    {
+      "playerId": 9,
+      "name": "Rashid Khan",
+      "countryFlag": "🇦🇫",
+      "country": "Afghanistan",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/rasid2.png?raw=true",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": 2300000
+    },
+    {
+      "playerId": 10,
+      "name": "AB de Villiers",
+      "countryFlag": "🇿🇦",
+      "country": "South Africa",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/abd3.png?raw=true",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": 2400000
+    },
+    {
+      "playerId": 11,
+      "name": "Lasith Malinga",
+      "countryFlag": "🇱🇰",
+      "country": "Sri Lanka",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/malenga3.png?raw=true",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2100000
+    },
+    {
+      "playerId": 12,
+      "name": "Quinton de Kock",
+      "countryFlag": "🇿🇦",
+      "country": "South Africa",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/deknock1.png?raw=true",
+      "role": "Wicketkeeper",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": 2000000
+    },
+    {
+      "playerId": 13,
+      "name": "Mahmudullah",
+      "countryFlag": "🇧🇩",
+      "country": "Bangladesh",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/mahmudullah.jpg?raw=true",
+      "role": "All-rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 1800000
+    },
+    {
+      "playerId": 14,
+      "name": "Faf du Plessis",
+      "countryFlag": "🇿🇦",
+      "country": "South Africa",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/Faf-du.jpg?raw=true",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": 2100000
+    },
+    {
+      "playerId": 15,
+      "name": "Naseem Shah",
+      "countryFlag": "🇵🇰",
+      "country": "Pakistan",
+      "image": "https://github.com/hasanrafi1122/photos/blob/main/ph-assignment/assignment-7/nacim.jpeg?raw=true",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2300000
+    }
+  ]
+}
