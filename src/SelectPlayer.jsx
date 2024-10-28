@@ -9,7 +9,7 @@ const SelectedPlayers = ({ selectedPlayers, onDeletePlayer }) => {
       ) : (
         <ul>
           {selectedPlayers.map(player => (
-            <li key={player.playerId} className="flex items-center p-4 mb-2 bg-white rounded-lg shadow">
+            <li key={player.playerId} className="flex flex-col items-center p-4 mb-2 bg-white rounded-lg shadow sm:flex-row">
               <img src={player.image} alt={player.name} className="w-16 h-16 rounded-full" />
               <div className="inline-block ml-4">
                 <h2 className="text-xl font-semibold">{player.name}</h2>
@@ -18,7 +18,7 @@ const SelectedPlayers = ({ selectedPlayers, onDeletePlayer }) => {
               </div>
               <button
                 onClick={() => onDeletePlayer(player.playerId)}
-                className="px-4 py-2 ml-auto text-white"
+                className="px-4 py-2 ml-auto text-white "
               >
                 <img src="https://raw.githubusercontent.com/hasanrafi1122/photos/200494c30fd7043f10b8588f0421569ec388d3ee/ph-assignment/assignment-7/delete.svg" />
               </button>
