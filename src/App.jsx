@@ -18,10 +18,12 @@ const App = () => {
 
 
   const handleSelectPlayer = (player) => {
-    // Add player to selected players
-    setSelectedPlayers((prevPlayers) => [...prevPlayers, player]);
-  };
+    if (coins >= player.biddingPrice) {
+      setCoins((prevCoins) => prevCoins - player.biddingPrice); // Deduct coins
+      setSelectedPlayers((prevPlayers) => [...prevPlayers, player]);
 
+    }
+  };
 
 
 
@@ -61,7 +63,7 @@ const App = () => {
 {/* ------------------------- */}
 
 {/* start of main desktop */}
-    <div className="flex flex-col items-end bg-gradient-to-r from-indigo-100 from-10% via-sky-100 via-30% to-emerald-100 to-90% z-[-1]   ">
+    <div className="flex flex-col items-end bg-gradient-to-r from-indigo-100 from-10% via-sky-100 via-30% to-emerald-100 to-90% z-[-1]  ">
 
     {/* start of desktop */}
       <div className="flex flex-col items-center w-full pt-4 overflow-hidden max-md:max-w-full">
@@ -87,7 +89,7 @@ const App = () => {
 
 
           <details className="dropdown">
-  <summary className="m-1 btn   w-[70px] h-[40px]  md:hidden"><img className="w-[40px] h-[40px] " src="https://raw.githubusercontent.com/hasanrafi1122/photos/9b1d6467f9d7ecc24a27084192300a1e447792a6/ph-assignment/assignment-7/align-justify-r.svg" /> </summary>
+  <summary className="m-1 btn   w-[70px] h-[40px] bg-opacity-[0] border-none  md:hidden"><img className="w-[40px] h-[40px] " src="https://raw.githubusercontent.com/hasanrafi1122/photos/9b1d6467f9d7ecc24a27084192300a1e447792a6/ph-assignment/assignment-7/align-justify-r.svg" /> </summary>
   <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
   <li className="self-stretch my-auto"><a className="" href="#">Home</a></li>
               <li className="self-stretch my-auto"><a className="" href="#">Fixture</a></li>
@@ -98,7 +100,7 @@ const App = () => {
 
 
 
-            <ul className="hidden md:contents gap-10 justify-center items-center self-stretch my-auto whitespace-nowrap min-w-[240px] text-neutral-900 text-opacity-70">
+            <ul className="hidden md:contents gap-10 justify-center sm:text-[16px] text-[12px] items-center self-stretch my-auto whitespace-nowrap min-w-[240px] text-neutral-900 text-opacity-70">
               <li className="self-stretch my-auto"><a className="" href="#">Home</a></li>
               <li className="self-stretch my-auto"><a className="" href="#">Fixture</a></li>
               <li className="self-stretch my-auto"><a className="" href="#">Teams</a></li>
@@ -110,7 +112,7 @@ const App = () => {
 
 
             
-            <button className="flex gap-2.5 justify-center items-center self-stretch px-5 py-4 my-auto font-semibold bg-white rounded-xl border border-solid border-neutral-900 border-opacity-10 text-neutral-900">
+            <button className="flex text-sm sm:text-lg gap-2.5 justify-center items-center bg-opacity-[.2] self-stretch px-5 py-4 my-auto font-semibold bg-white rounded-xl border border-solid border-neutral-900 border-opacity-10 text-neutral-900">
             <span className="">$</span><span className="">{coins}</span><span className="">Coin</span>
               <img
                 loading="lazy"
@@ -144,10 +146,10 @@ const App = () => {
               <div className="flex flex-col items-center justify-center w-full">
                 <div className="flex flex-col items-center w-full">
                   <div className="flex flex-col items-center w-full text-center">
-                    <div className="p-2 text-4xl font-bold rounded-lg bg-slate-800 bg-opacity-[.5]  text-gray-50 max-md:max-w-full">
+                    <div className="p-2 text-3xl sm:text-4xl font-bold rounded-lg bg-slate-800 bg-opacity-[.5]  text-gray-50 max-md:max-w-full">
                       Assemble Your Ultimate Dream 11 Cricket Team
                     </div>
-                    <div className="p-2 mt-4 text-2xl font-medium text-white bg-opacity-50 rounded-lg txt-opacity-100 bg-slate-800">
+                    <div className="p-2 mt-4 text-xl font-medium text-white bg-opacity-50 rounded-lg sm:text-2xl txt-opacity-100 bg-slate-800">
                       Beyond Boundaries Beyond Limits
                     </div>
                   </div>
@@ -163,7 +165,7 @@ const App = () => {
 
         <div className="flex flex-col justify-center p-1 mt-6 text-base font-bold bg-white border border-teal-300 border-solid  rounded-2xl bg-opacity-10 text-gray-800 relative top-[-150px]">
         <button  onClick={claimFreeCredits} className=" gap-2.5 self-stretch px-5 py-3.5 bg-gradient-to-r from-teal-200 to-blue-200 hover:from-pink-200 hover:to-orange-100 rounded-xl ">
-              <a className="text-xl font-extrabold" href="#" >Claim Free Credit</a> 
+              <a className="text-lg font-extrabold sm:text-xl" href="#" >Claim Free Credit</a> 
         </button>
 
         {showAlert && <Alert />}
@@ -295,7 +297,7 @@ const App = () => {
               />
               <div className="flex flex-wrap items-start justify-between w-full gap-10 mt-16 max-md:mt-10 max-md:max-w-full">
                 <div className="flex flex-col min-w-[240px] w-[291px]">
-                  <div className="text-lg font-semibold text-white">
+                  <div className="text-lg font-semibold text-white ">
                     About Us
                   </div>
                   <div className="mt-4 text-base leading-7 text-white text-opacity-60">
